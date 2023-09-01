@@ -103,6 +103,7 @@
               // user in with confirmationResult.confirm(code).
               window.confirmationResult = confirmationResult;
               console.log(confirmationResult);
+              alert("코드가 전송되었습니다.");
               // ...
             })
             .catch((error) => {
@@ -123,6 +124,7 @@
               // User signed in successfully.
               const user = result.user;
               console.log(result);
+              alert("인증번호가 일치합니다.");
               // ...
             })
             .catch((error) => {
